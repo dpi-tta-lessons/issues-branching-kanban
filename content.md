@@ -9,6 +9,9 @@ Kanban boards are visual tools that help manage workflow efficiently. They use c
 3. **Limiting Work in Progress (WIP)**: Encourages teams to focus on completing tasks before starting new ones.
 4. **Continuous Improvement**: Provides a visual representation of bottlenecks and inefficiencies, allowing teams to improve processes continuously.
 
+    ![Creating a Project Board](./assets/kanban_board_example.jpeg)
+
+
 ## GitHub Project Boards
 
 GitHub Project Boards bring the power of Kanban boards into the realm of software development. They offer a flexible way to organize and prioritize your work. Here’s how you can use GitHub Project Boards to manage your projects:
@@ -17,19 +20,30 @@ GitHub Project Boards bring the power of Kanban boards into the realm of softwar
 
 1. Navigate to the main page of your repository.
 2. Click on the **Projects** tab.
-3. Click **New Project**.
-4. Choose a template (**Kanban**, **Team planning**, etc.) and name your project.
+   
+    ![Creating a Project Board](./assets/tab-projects.jpeg)
+
+4. Click **New Project**.
+
+    ![Creating a Project Board](./assets/new_project_button.jpeg)
+
+6. Choose a template (**Kanban**, **Team planning**, etc.) and name your project.
 
 ### Adding Columns
 
 1. Click **+** to the right of the columns.
-2. Name your column (e.g., To Do, In Progress, Done).
-3. Repeat for additional columns.
+
+   ![Creating a Project Board](./assets/add_column.jpeg)
+
+3. Name your column (e.g., To Do, In Progress, Done).
+4. Repeat for additional columns.
 
 ### Adding Items
 
 - Items represent tasks and can be added to columns.
 - Click on **+ Add item** at the bottom of a column to create a new item.
+
+   ![Creating a Project Board](./assets/add-item.jpeg)
 
 ## Linking Issues to the Project Board
 
@@ -39,8 +53,11 @@ Issues can be linked to project boards to track work items. Here's how to do it:
 
 1. Navigate to an issue within your repository.
 2. On the right-hand side, look for the **Projects** section.
-3. Click the wheel icon and select the desired project(s).
-4. You can change the status and additional information from this view as well.
+
+    ![Creating a Project Board](./assets/linking_issue_to_project.jpeg)
+
+4. Click the wheel icon and select the desired project(s).
+5. You can change the status and additional information from this view as well.
 
 ### From the Project Board
 
@@ -95,8 +112,13 @@ Let’s go through a practical example to understand how to set up and use a Git
 1. When you create a pull request for the issue, link it to your project board in the same way.
 2. This helps in tracking the progress of your code review and merge process.
 
-## This is Just the Beginning
+## Quiz
+
+
+## Conclusion
 
 This guide is just the beginning of how you can use GitHub Project Boards to manage your projects. To learn more about GitHub Projects and explore advanced features, check out the [GitHub Project Board Documentation](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
 
 By following these steps, you can effectively manage your projects using GitHub Project Boards, keeping track of issues, tasks, and pull requests all in one place. This organization helps streamline your workflow and improve team collaboration.
+
+
