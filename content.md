@@ -16,20 +16,20 @@ GitHub Project Boards bring the power of Kanban boards into the realm of softwar
 ### Creating a Project Board
 
 1. Navigate to the main page of your repository.
-2. Click on the "Projects" tab.
-3. Click "New Project".
-4. Name your project and choose a template (Kanban, Team planning, etc.).
+2. Click on the **Projects** tab.
+3. Click **New Project**.
+4. Choose a template (**Kanban**, **Team planning**, etc.) and name your project.
 
 ### Adding Columns
 
-1. Click "Add column".
+1. Click **+** to the right of the columns.
 2. Name your column (e.g., To Do, In Progress, Done).
 3. Repeat for additional columns.
 
 ### Adding Items
 
 - Items represent tasks and can be added to columns.
-- Click on "+ Add item" within a column to create a new item.
+- Click on **+ Add item** at the bottom of a column to create a new item.
 
 ## Linking Issues to the Project Board
 
@@ -38,15 +38,15 @@ Issues can be linked to project boards to track work items. Here's how to do it:
 ### Directly from the Issue
 
 1. Navigate to an issue within your repository.
-2. On the right-hand side, look for the "Projects" section.
+2. On the right-hand side, look for the **Projects** section.
 3. Click the wheel icon and select the desired project(s).
 4. You can change the status and additional information from this view as well.
 
 ### From the Project Board
 
 1. Go to your project board.
-2. Click on "+ Add item".
-3. In the "+ Add item" dialog, you can search for the repository and the existing issues to add.
+2. Click on **+ Add item**.
+3. In the **+ Add item** dialog, you can search for the repository and the existing issues to add.
 
 ## Linking Pull Requests to the Project Board
 
@@ -55,13 +55,13 @@ Just like issues, pull requests can also be linked to project boards:
 ### Directly from the Pull Request
 
 1. Navigate to a pull request within your repository.
-2. On the right-hand side, look for the "Projects" section.
+2. On the right-hand side, look for the **Projects** section.
 3. Click the wheel icon and select the desired project and column.
 
 ### From the Project Board
 
 1. Go to your project board.
-2. Click on "+ Add item".
+2. Click on **+ Add item**.
 3. In the "+ Add item" dialog, you can search for the repository and the existing pull requests to add.
 
 ## Practical Example
@@ -71,8 +71,8 @@ Let’s go through a practical example to understand how to set up and use a Git
 ### Creating a Project
 
 1. Go to your repository on GitHub.
-2. Click the "Projects" tab.
-3. Click "New project", name it "Development Workflow", and choose the "Kanban" template.
+2. Click the **Projects** tab.
+3. Click **New project**, name it "Development Workflow", and choose the **Kanban** template.
 
 ### Adding Columns
 
@@ -81,9 +81,9 @@ Let’s go through a practical example to understand how to set up and use a Git
 
 ### Creating and Linking Issues
 
-1. Go to the "Issues" tab in your repository.
+1. Go to the **Issues** tab in your repository.
 2. Create a new issue, for example, "Set up development environment".
-3. In the issue, link it to your project by clicking the wheel icon in the "Projects" section and selecting "Development Workflow" and the "To do" column.
+3. In the issue, link it to your project by clicking the wheel icon in the **Projects** section, filter projects and search for the project you would like to link, and change the status.
 
 ### Moving Issues Across Columns
 
