@@ -114,6 +114,30 @@ Let’s go through a practical example to understand how to set up and use a Git
 
 ## Quiz
 
+- What are Kanban boards primarily used for?
+- Managing workflow
+  - Correct! Kanban boards help visualize and manage tasks throughout their stages.
+- Writing code
+  - Not correct. Kanban boards are not necessarily used to write code.
+- Creating databases
+  - Not correct! Kanban boards do not manage database creation.
+{: .choose_best #kanban_primary_use title="Primary use of Kanban boards" points="1" answer="1"}
+
+- You can only link issues to a GitHub Project Board, but not pull requests.
+- True
+  - Not correct. GitHub Project Boards support linking both issues and pull requests.
+- False
+  - Correct! You can link both issues and pull requests to a GitHub Project Board.
+{: .choose_best #deep_nesting title="Deep Nesting in Routes" points="1" answer="2"}
+
+- Which of the following is NOT a benefit of using Kanban boards?
+- Visualization of work items
+  - Incorrect. Visualization is a primary benefit of Kanban boards.
+- Compiling code
+  - Correct! Compiling code is a task for development tools, not a benefit of Kanban boards.
+- Limiting Work in Progress (WIP)
+  - Incorrect. Limiting WIP is a key benefit of using Kanban boards.
+{: .choose_best #kanban_benefits title="Kanban board benefits" points="1" answer="2"}
 
 ## Conclusion
 
