@@ -1,164 +1,145 @@
 # Mastering GitHub Workflow: Issues, Branches, and Kanban Boards
 
-<!-- TODO: ISSUES
-- way to break up work
-- backlog of work to do
-- title, description, comment thread
-- assign
-- prioritize
+In this lesson, we will learn how to efficiently manage your development workflow using GitHub features such as Issues, Branches, and Kanban Boards. By the end of this lesson, you'll be able to break tasks into issues, manage development with branches, and visualize progress using GitHub Project Boards.
 
--->
+## Issues: Breaking Down Work
 
-<!-- TODO: BRANCH NAMING
-- standard conventions
-  - `<issue-number>-<initials>-<description>
-  - `feature/description`
-  - refer to readme contribution guidelines
-  - etc.
--->
+GitHub Issues are a great way to keep track of work that needs to be done. Issues are like tasks or to-do items. Here’s how to use them:
 
-## Kanban Boards
+- **Title**: A short description of the task.
+- **Description**: A more detailed explanation, including goals, steps, or requirements.
+- **Comments**: Team members can discuss the issue and ask questions.
+- **Assignment**: You can assign issues to team members to make sure they know who is responsible.
+- **Labels**: Categorize issues (e.g., `bug`, `feature`, `enhancement`).
+- **Milestones**: Group related issues into a milestone, which represents a bigger goal.
 
-Kanban boards are visual tools that help manage workflow efficiently. They use cards and columns to represent tasks and their stages of progress. The main benefits of Kanban boards include:
+<!-- TODO: example issue image -->
 
-1. **Visualization**: Makes it easy to see the status of work items.
-2. **Workflow Management**: Helps manage tasks from start to finish.
-3. **Limiting Work in Progress (WIP)**: Encourages teams to focus on completing tasks before starting new ones.
-4. **Continuous Improvement**: Provides a visual representation of bottlenecks and inefficiencies, allowing teams to improve processes continuously.
-5. **Prioritize**: Vertical position of issues on the board may indicate priority
+### Quiz: Understanding Issues
+- What is the purpose of an issue on GitHub?
+- To track a task or bug
+  - Correct! Issues are used to track work such as tasks or bugs.
+- To store the project code
+  - Incorrect. Issues help manage tasks, not store code.
+- To create a Kanban board
+  - Incorrect. A Kanban board organizes issues but is not created from them directly.
+{: .choose_best #github_issues title="Purpose of Issues" points="1" answer="1"}
+
+---
+
+## Branches: Working on Different Versions
+
+Branches allow developers to work on different features, fixes, or experiments simultaneously without affecting the main codebase.
+
+### How Branches Work
+
+1. **Create a Branch**: When you start working on a feature or fix, create a new branch.
+<!-- TODO: how to create a branch in git -->
+2. **Do the Work**: Make changes, add new code, or fix bugs on your branch.
+3. **Merge Back**: Once the work is done, you can merge the branch back into the main branch. (Usually by making a pull request and getting a code review)
+
+### Branch Naming Conventions
+
+Good branch names make it clear what the branch is for:
+
+- **Example 1**: `23-jd-setup-dev-environment` (Issue #23, by JD, for setting up the development environment).
+- **Example 2**: `feature/user-authentication` (Working on a user authentication feature).
+
+It's a good practice to follow established branch naming conventions outlined in the README contribution section.
+
+### Quiz: Naming Branches
+- Which of the following is a good branch name for fixing a login bug?
+- `fix-login-issue`
+  - Correct! This branch name clearly explains the task.
+- `branch-one`
+  - Incorrect. This name is too vague.
+- `update`
+  - Incorrect. This is not specific enough.
+{: .choose_best #branch_names title="Good Branch Names" points="1" answer="1"}
+
+---
+
+## Kanban Boards: Visualizing Workflow
+
+Kanban boards help teams manage tasks by showing them in different stages, such as "To Do", "In Progress", and "Done". In GitHub, these boards are available through **GitHub Project Boards**.
+
+### Benefits of Kanban Boards:
+1. **Visualization**: Clearly see tasks and their progress.
+2. **Work Organization**: Organize work in stages and limit work in progress (WIP).
+3. **Collaboration**: Everyone can easily see what’s happening in the project.
+4. **Prioritization**: Helps to focus on important tasks by prioritizing them.
+
+---
 
 ## GitHub Project Boards
 
-![Creating a Project Board](assets/kanban_board_example.jpeg)
+GitHub Project Boards allow you to manage issues and pull requests in a visual way.
 
-GitHub Project Boards bring the power of Kanban boards into the realm of software development. They offer a flexible way to organize and prioritize your work. Here’s how you can use GitHub Project Boards to manage your projects:
+![](assets/kanban_board_example.jpeg)
 
 ### Creating a Project Board
 
-1. Navigate to the main page of your repository.
-2. Click on the **Projects** tab.
-   
-![Creating a Project Board](assets/tab-projects.jpeg)
+1. Navigate to the repository's **Projects** tab.
+2. Click **New Project**, choose a template (e.g., **Kanban**), and give your project a name.
 
-4. Click **New Project**.
-
-![Creating a Project Board](assets/new_project_button.jpeg)
-
-6. Choose a template (**Kanban**, **Team planning**, etc.) and name your project.
+![](assets/new_project_button.jpeg)
 
 ### Adding Columns
 
-1. Click **+** to the right of the columns.
+- Click **+** to add columns like "To Do", "In Progress", and "Done".
 
-![Creating a Project Board](assets/add_column.jpeg)
+![](assets/add_column.jpeg)
 
-3. Name your column (e.g., To Do, In Progress, Done).
-4. Repeat for additional columns.
+### Adding Issues and Pull Requests
 
-### Adding Items
+- You can add existing issues and pull requests to the board by clicking **+ Add item** or by linking them directly from the issue or pull request page.
 
-- Items represent tasks and can be added to columns.
-- Click on **+ Add item** at the bottom of a column to create a new item.
+![](assets/add_item.jpeg)
 
-![Creating a Project Board](assets/add-item.jpeg)
-
-## Linking Issues to the Project Board
-
-Issues can be linked to project boards to track work items. Here's how to do it:
-
-### Directly from the Issue
-
-1. Navigate to an issue within your repository.
-2. On the right-hand side, look for the **Projects** section.
-
-![Creating a Project Board](assets/linking_issue_to_project.jpeg)
-
-4. Click the wheel icon and select the desired project(s).
-5. You can change the status and additional information from this view as well.
-
-### From the Project Board
-
-1. Go to your project board.
-2. Click on **+ Add item**.
-3. In the **+ Add item** dialog, you can search for the repository and the existing issues to add.
-
-## Linking Pull Requests to the Project Board
-
-Just like issues, pull requests can also be linked to project boards:
-
-### Directly from the Pull Request
-
-1. Navigate to a pull request within your repository.
-2. On the right-hand side, look for the **Projects** section.
-3. Click the wheel icon and select the desired project and column.
-
-### From the Project Board
-
-1. Go to your project board.
-2. Click on **+ Add item**.
-3. In the "+ Add item" dialog, you can search for the repository and the existing pull requests to add.
-
-## Practical Example
-
-Let’s go through a practical example to understand how to set up and use a GitHub Project Board:
-
-### Creating a Project
-
-1. Go to your repository on GitHub.
-2. Click the **Projects** tab.
-3. Click **New project**, name it "Development Workflow", and choose the **Kanban** template.
-
-### Adding Columns
-
-- You will have three default columns: "To do", "In progress", and "Done".
-- You can add more columns if needed by clicking "+" to the right of the columns.
-
-### Creating and Linking Issues
-
-1. Go to the **Issues** tab in your repository.
-2. Create a new issue, for example, "Set up development environment".
-3. In the issue, link it to your project by clicking the wheel icon in the **Projects** section, filter projects and search for the project you would like to link, and change the status.
-
-### Moving Issues Across Columns
-
-- As you start working on the task, move the issue from "Todo" to "In progress".
-- Once the task is completed, move it to the "Done" column.
-
-### Linking Pull Requests
-
-1. When you create a pull request for the issue, link it to your project board in the same way.
-2. This helps in tracking the progress of your code review and merge process.
-
-## Quiz
-
-- What are Kanban boards primarily used for?
-- Managing workflow
-  - Correct! Kanban boards help visualize and manage tasks throughout their stages.
+### Quiz: Kanban Benefits
+- Which of the following is a key benefit of using Kanban boards?
+- Limiting work in progress (WIP)
+  - Correct! Kanban boards help focus on completing tasks before starting new ones.
 - Writing code
-  - Not correct. Kanban boards are not necessarily used to write code.
-- Creating databases
-  - Not correct! Kanban boards do not manage database creation.
-{: .choose_best #kanban_primary_use title="Primary use of Kanban boards" points="1" answer="1"}
+  - Incorrect. Kanban boards help manage tasks, not write code.
+{: .choose_best #kanban_benefits_quiz title="Kanban Board Benefits" points="1" answer="1"}
 
-- You can only link issues to a GitHub Project Board, but not pull requests.
-- True
-  - Not correct. GitHub Project Boards support linking both issues and pull requests.
-- False
-  - Correct! You can link both issues and pull requests to a GitHub Project Board.
-{: .choose_best #deep_nesting title="Deep Nesting in Routes" points="1" answer="2"}
+---
 
-- Which of the following is NOT a benefit of using Kanban boards?
-- Visualization of work items
-  - Incorrect. Visualization is a primary benefit of Kanban boards.
-- Compiling code
-  - Correct! Compiling code is a task for development tools, not a benefit of Kanban boards.
-- Limiting Work in Progress (WIP)
-  - Incorrect. Limiting WIP is a key benefit of using Kanban boards.
-{: .choose_best #kanban_benefits title="Kanban board benefits" points="1" answer="2"}
+## Practical Example: Using GitHub Project Boards
 
+Let's go through an example of setting up a project board, adding issues, and tracking progress.
 
-## Link In Bio
-[Link In Bio](https://github.com/DPI-WE/link-in-bio) is an index of [link in bio URLs](https://chapters.firstdraft.com/chapters/887). Follow the contribution guidelines to add your link in bio and practice your pull request skills.
+1. **Create a Project Board**: Go to your repository, click the **Projects** tab, and create a **Kanban** project called "Development Workflow".
+2. **Add Columns**: You will see default columns like "To do", "In progress", and "Done". You can also add more columns if needed.
+3. **Create and Link Issues**: Create an issue (e.g., "Set up dev environment") and link it to your project.
+4. **Move Issues**: As you work, move the issue across columns based on its status.
+
+---
+
+## Linking Pull Requests to a Project Board
+
+Just like issues, you can also link pull requests to a project board. This helps track code changes alongside task progress.
+
+1. **Link from Pull Request**: On the right side of a pull request, you’ll find the **Projects** section where you can link the pull request to the board.
+2. **Move Across Columns**: As the pull request moves through stages (e.g., in review, merged), update its position on the board.
+
+![](assets/linking_issue_to_project.jpeg)
+
+- Can you link both issues and pull requests to a GitHub Project Board?
+- Yes
+  - Correct! Both issues and pull requests can be linked to a GitHub Project Board.
+- No
+  - Incorrect. GitHub allows linking both issues and pull requests.
+{: .choose_best #linking_pull_requests_quiz title="Linking Pull Requests to Project Board" points="1" answer="1"}
+
+---
+
+## Submit Your Pull Requests
+
+To practice submitting pull requests, follow the instructions in these repositories:
+
+### Link In Bio Pull Request
 
 - Enter your `https://github.com/DPI-WE/link-in-bio/pull/<id>` pull request URL:
 - `https://github.com/DPI-WE/link-in-bio/pull`
@@ -174,16 +155,43 @@ After you submit the Pull Request URL here, return to Canvas and submit the URL 
 An instructor will provide additional feedback on your submission there.
 </div>
 
-<!--  TODO: add instructions to contribute to these repos to practice (just like above)
-https://github.com/DPI-WE/first-project
-https://github.com/DPI-WE/request-to-meme
--->
+### First Project Pull Request
+
+- Enter your `https://github.com/DPI-WE/first-project/pull/<id>` pull request URL:
+- `https://github.com/DPI-WE/first-project/pull`
+  - Great job!
+- any
+  - Not quite. Make sure the URL looks like: `https://github.com/DPI-WE/first-project/pull/<id>`
+{: .free_text #first_project_pull_request_url title="First Project Pull Request URL" points="1" answer="1" }
+
+<div class="alert alert-danger mt-2">
+
+After you submit the Pull Request URL here, return to Canvas and submit the URL again in the assignment "Pull Request URL for First Project".
+
+An instructor will provide additional feedback on your submission there.
+</div>
+
+### Request to Meme Pull Request
+
+- Enter your `https://github.com/DPI-WE/request-to-meme/pull/<id>` pull request URL:
+- `https://github.com/DPI-WE/request-to-meme/pull`
+  - Great job!
+- any
+  - Not quite. Make sure the URL looks like: `https://github.com/DPI-WE/request-to-meme/pull/<id>`
+{: .free_text #request_to_meme_pull_request_url title="Request to Meme Pull Request URL" points="1" answer="1" }
+
+<div class="alert alert-danger mt-2">
+
+After you submit the Pull Request URL here, return to Canvas and submit the URL again in the assignment "Pull Request URL for Request to Meme".
+
+An instructor will provide additional feedback on your submission there.
+</div>
+
+---
 
 ## Conclusion
 
-This guide is just the beginning of how you can use GitHub Project Boards to manage your projects. To learn more about GitHub Projects and explore advanced features, check out the [GitHub Project Board Documentation](https://docs.github.com/en/issues/planning-and-tracking-with-projects)
-
-By following these steps, you can effectively manage your projects using GitHub Project Boards, keeping track of issues, tasks, and pull requests all in one place. This organization helps streamline your workflow and improve team collaboration.
+By mastering GitHub Issues, Branches, and Project Boards, you can streamline your workflow, organize your tasks, and ensure everyone on your team is aligned. Practice these skills by setting up your own boards and linking issues and pull requests to them.
 
 ---
 
