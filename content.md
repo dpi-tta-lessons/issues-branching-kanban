@@ -13,7 +13,7 @@ GitHub Issues are a great way to keep track of work that needs to be done. Issue
 - **Labels**: Categorize issues (e.g., `bug`, `feature`, `enhancement`).
 - **Milestones**: Group related issues into a milestone, which represents a bigger goal.
 
-<!-- TODO: example issue image -->
+![](assets/new-issue.png)
 
 ### Quiz: Understanding Issues
 - What is the purpose of an issue on GitHub?
@@ -33,8 +33,7 @@ Branches allow developers to work on different features, fixes, or experiments s
 
 ### How Branches Work
 
-1. **Create a Branch**: When you start working on a feature or fix, create a new branch.
-<!-- TODO: how to create a branch in git -->
+1. **Create a Branch**: When you start working on a feature or fix, create a new branch off main. (`git checkout -b my-new-branch`)
 2. **Do the Work**: Make changes, add new code, or fix bugs on your branch.
 3. **Merge Back**: Once the work is done, you can merge the branch back into the main branch. (Usually by making a pull request and getting a code review)
 
