@@ -142,16 +142,16 @@ To practice submitting pull requests, follow the instructions in these repositor
 
 Follow the contribution guidelines for the [Link In Bio](https://github.com/DPI-WE/link-in-bio) repository.
 
-- Enter your `https://github.com/DPI-WE/link-in-bio` pull request URL:
-- `https://github.com/DPI-WE/link-in-bio/pull`
+- Did you create a pull request for `https://github.com/DPI-WE/link-in-bio`?
+- Yes
   - Great job!
-- any
-  - Not quite. Make sure the URL looks like: `https://github.com/DPI-WE/link-in-bio/pull/<id>`
-{: .free_text #link_in_bio_pull_request_url title="Link in Bio Pull Request URL" points="1" answer="1" }
+- No
+  - Please follow the contribution guidelines for the [Link In Bio](https://github.com/DPI-WE/link-in-bio) repository.
+{: .choose_best #link_in_bio_pull_request_url title="Link in Bio Pull Request URL" points="1" answer="1" }
 
 <div class="alert alert-danger mt-2">
 
-After you submit the Pull Request URL here, return to Canvas and submit the URL again in the assignment "Pull Request URL for Link in Bio".
+Return to Canvas and submit the pull request URL in the assignment "Pull Request URL for Link in Bio".
 
 An instructor will provide additional feedback on your submission there.
 </div>
@@ -160,16 +160,16 @@ An instructor will provide additional feedback on your submission there.
 
 Follow the contribution guidelines for the [First Project](https://github.com/DPI-WE/first-project) repository.
 
-- Enter your `https://github.com/DPI-WE/first-project` pull request URL:
-- `https://github.com/DPI-WE/first-project/pull`
+- Did you create a pull request for `https://github.com/DPI-WE/first-project`?
+- Yes
   - Great job!
-- any
-  - Not quite. Make sure the URL looks like: `https://github.com/DPI-WE/first-project/pull/<id>`
-{: .free_text #first_project_pull_request_url title="First Project Pull Request URL" points="1" answer="1" }
+- No
+  - Please follow the contribution guidelines for the [First Project](https://github.com/DPI-WE/first-project) repository,
+{: .choose_best #first_project_pull_request_url title="First Project Pull Request URL" points="1" answer="1" }
 
 <div class="alert alert-danger mt-2">
 
-After you submit the Pull Request URL here, return to Canvas and submit the URL again in the assignment "Pull Request URL for First Project".
+Return to Canvas and submit the pull request URL in the assignment "Pull Request URL for First Project".
 
 An instructor will provide additional feedback on your submission there.
 </div>
@@ -178,16 +178,16 @@ An instructor will provide additional feedback on your submission there.
 
 Follow the contribution guidelines for the [Request to Meme](https://github.com/DPI-WE/request-to-meme) repository.
 
-- Enter your `https://github.com/DPI-WE/request-to-meme` pull request URL:
-- `https://github.com/DPI-WE/request-to-meme/pull`
+- Did you create a pull request for `https://github.com/DPI-WE/request-to-meme`?
+- Yes
   - Great job!
-- any
-  - Not quite. Make sure the URL looks like: `https://github.com/DPI-WE/request-to-meme/pull/<id>`
-{: .free_text #request_to_meme_pull_request_url title="Request to Meme Pull Request URL" points="1" answer="1" }
+- No
+  - Please follow the contribution guidelines for the [Request to Meme](https://github.com/DPI-WE/request-to-meme) repository.
+{: .choose_best #request_to_meme_pull_request_url title="Request to Meme Pull Request URL" points="1" answer="1" }
 
 <div class="alert alert-danger mt-2">
 
-After you submit the Pull Request URL here, return to Canvas and submit the URL again in the assignment "Pull Request URL for Request to Meme".
+Return to Canvas and submit the pull request URL in the assignment "Pull Request URL for Request to Meme".
 
 An instructor will provide additional feedback on your submission there.
 </div>
