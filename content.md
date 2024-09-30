@@ -142,11 +142,11 @@ To practice submitting pull requests, follow the instructions in these repositor
 
 Follow the contribution guidelines for the [Link In Bio](https://github.com/DPI-WE/link-in-bio) repository.
 
-- Enter your `https://github.com/DPI-WE/link-in-bio/pull/<id>` pull request URL:
-- `https://github.com/DPI-WE/link-in-bio/pull/id`
+- Enter your `https://github.com/DPI-WE/link-in-bio` pull request URL:
+- `https://github.com/DPI-WE/link-in-bio/pull`
   - Great job!
 - any
-  - Not quite. Make sure the URL looks like: `https://github.com/DPI-WE/link-in-bio>`
+  - Not quite. Make sure the URL looks like: `https://github.com/DPI-WE/link-in-bio/pull/<id>`
 {: .free_text #link_in_bio_pull_request_url title="Link in Bio Pull Request URL" points="1" answer="1" }
 
 <div class="alert alert-danger mt-2">
@@ -161,7 +161,7 @@ An instructor will provide additional feedback on your submission there.
 Follow the contribution guidelines for the [First Project](https://github.com/DPI-WE/first-project) repository.
 
 - Enter your `https://github.com/DPI-WE/first-project` pull request URL:
-- `https://github.com/DPI-WE/first-project/pull/id`
+- `https://github.com/DPI-WE/first-project/pull`
   - Great job!
 - any
   - Not quite. Make sure the URL looks like: `https://github.com/DPI-WE/first-project/pull/<id>`
@@ -179,7 +179,7 @@ An instructor will provide additional feedback on your submission there.
 Follow the contribution guidelines for the [Request to Meme](https://github.com/DPI-WE/request-to-meme) repository.
 
 - Enter your `https://github.com/DPI-WE/request-to-meme` pull request URL:
-- `https://github.com/DPI-WE/request-to-meme/pull/id`
+- `https://github.com/DPI-WE/request-to-meme/pull`
   - Great job!
 - any
   - Not quite. Make sure the URL looks like: `https://github.com/DPI-WE/request-to-meme/pull/<id>`
