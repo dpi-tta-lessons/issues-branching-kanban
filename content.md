@@ -140,13 +140,13 @@ To practice submitting pull requests, follow the instructions in these repositor
 
 ### Link In Bio Pull Request
 
-Follow the contribution guidelines for the [Link In Bio](https://github.com/DPI-WE/link-in-bio) repository.
+Follow the contribution guidelines for the [Link In Bio](https://github.com/DPI-WE/pr-link-in-bio) repository.
 
 - Did you create a pull request for `https://github.com/DPI-WE/link-in-bio`?
 - Yes
   - Great job!
 - No
-  - Please follow the contribution guidelines for the [Link In Bio](https://github.com/DPI-WE/link-in-bio) repository.
+  - Please follow the contribution guidelines for the [Link In Bio](https://github.com/DPI-WE/pr-link-in-bio) repository.
 {: .choose_best #link_in_bio_pull_request_url title="Link in Bio Pull Request URL" points="1" answer="1" }
 
 <div class="alert alert-danger mt-2">
@@ -158,13 +158,13 @@ An instructor will provide additional feedback on your submission there.
 
 ### First Project Pull Request
 
-Follow the contribution guidelines for the [First Project](https://github.com/DPI-WE/first-project) repository.
+Follow the contribution guidelines for the [First Project](https://github.com/DPI-WE/pr-first-project) repository.
 
 - Did you create a pull request for `https://github.com/DPI-WE/first-project`?
 - Yes
   - Great job!
 - No
-  - Please follow the contribution guidelines for the [First Project](https://github.com/DPI-WE/first-project) repository,
+  - Please follow the contribution guidelines for the [First Project](https://github.com/DPI-WE/pr-first-project) repository,
 {: .choose_best #first_project_pull_request_url title="First Project Pull Request URL" points="1" answer="1" }
 
 <div class="alert alert-danger mt-2">
@@ -176,13 +176,13 @@ An instructor will provide additional feedback on your submission there.
 
 ### Request to Meme Pull Request
 
-Follow the contribution guidelines for the [Request to Meme](https://github.com/DPI-WE/request-to-meme) repository.
+Follow the contribution guidelines for the [Request to Meme](https://github.com/DPI-WE/pr-request-to-meme) repository.
 
 - Did you create a pull request for `https://github.com/DPI-WE/request-to-meme`?
 - Yes
   - Great job!
 - No
-  - Please follow the contribution guidelines for the [Request to Meme](https://github.com/DPI-WE/request-to-meme) repository.
+  - Please follow the contribution guidelines for the [Request to Meme](https://github.com/DPI-WE/pr-request-to-meme) repository.
 {: .choose_best #request_to_meme_pull_request_url title="Request to Meme Pull Request URL" points="1" answer="1" }
 
 <div class="alert alert-danger mt-2">
