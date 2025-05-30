@@ -13,7 +13,7 @@ GitHub Issues are a great way to keep track of work that needs to be done. Issue
 - **Labels**: Categorize issues (e.g., `bug`, `feature`, `enhancement`).
 - **Milestones**: Group related issues into a milestone, which represents a bigger goal.
 
-![](assets/new-issue.png)
+![](assets/new-issue.png){: .img-fluid }
 
 ### Quiz: Understanding Issues
 - What is the purpose of an issue on GitHub?
@@ -74,26 +74,26 @@ Kanban boards help teams manage tasks by showing them in different stages, such 
 
 GitHub Project Boards allow you to manage issues and pull requests in a visual way.
 
-![](assets/kanban_board_example.jpeg)
+![](assets/kanban_board_example.jpeg){: .img-fluid }
 
 ### Creating a Project Board
 
 1. Navigate to the repository's **Projects** tab.
 2. Click **New Project**, choose a template (e.g., **Kanban**), and give your project a name.
 
-![](assets/new_project_button.jpeg)
+![](assets/new_project_button.jpeg){: .img-fluid }
 
 ### Adding Columns
 
 - Click **+** to add columns like "To Do", "In Progress", and "Done".
 
-![](assets/add_column.jpeg)
+![](assets/add_column.jpeg){: .img-fluid }
 
 ### Adding Issues and Pull Requests
 
 - You can add existing issues and pull requests to the board by clicking **+ Add item** or by linking them directly from the issue or pull request page.
 
-![](assets/add_item.jpeg)
+![](assets/add_item.jpeg){: .img-fluid }
 
 ### Quiz: Kanban Benefits
 - Which of the following is a key benefit of using Kanban boards?
@@ -123,7 +123,7 @@ Just like issues, you can also link pull requests to a project board. This helps
 1. **Link from Pull Request**: On the right side of a pull request, you’ll find the **Projects** section where you can link the pull request to the board.
 2. **Move Across Columns**: As the pull request moves through stages (e.g., in review, merged), update its position on the board.
 
-![](assets/linking_issue_to_project.jpeg)
+![](assets/linking_issue_to_project.jpeg){: .img-fluid }
 
 - Can you link both issues and pull requests to a GitHub Project Board?
 - Yes
